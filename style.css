@@ -1,3 +1,25 @@
+/*
+*{
+    margin: 0;
+    padding:0;
+}
+*/
+
+#mainHeader{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#mainFooter{
+    text-align:center;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+}
+
 body{
     background-color: #f4f4f4;
     color: #555555;
@@ -11,12 +33,124 @@ body{
     line-height: 1.6em;
 }
 
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:active{
+    color: white;
+}
+
+a:visited{
+    color:cornflowerblue;
+}
+
+a:hover{
+    color: #ccc;
+}
+
 .container{
     width: 80%;
     margin: auto;
 }
 
+.button{
+    background-color: #333;
+    color:#fff;
+    padding: 10px 15px;
+    border:none;
+}
+
+.button:hover{
+    background: #ccc;
+    color:white;
+}
+
+.coolHeader{
+    background-color: #333;
+    color: #ccc;
+    border-radius: 10px;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:underline;
+}
+
 .box-1{
     background-color: #333333;
     color: #c9c9c9;
+    /* random stuff */
+    border-bottom-width: 10px;
+    border-top-style:dotted;
+
+    border: 5px red solid;
+
+    padding: 20px;
+
+    margin: 20px 0;
 }
+
+.box-1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+    text-align: center;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
+}
+
+.categories ol{
+    padding: 0;
+    list-style: square;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #333;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form input[type="email"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+

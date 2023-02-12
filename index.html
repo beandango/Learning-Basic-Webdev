@@ -6,8 +6,12 @@
     </head>
     <body>
         <div class="container">
-                <!-- Headings -->
-            <h1>This is the first heading</h1>
+            <!-- Headings -->
+
+            <div class="coolHeader">
+                <h1>This is the first heading</h1>
+            </div>
+
             <h2>This is the second heading</h2><br>
             <img src="images/html-5.png" width="200">
             <br>
@@ -20,6 +24,15 @@
             <h6>wow this heading is so small</h6>
 
             <div class="box-1">
+                <h1>yippee yayyyy</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Delectus, quidem magnam inventore <strong>voluptas, doloribus tempore,</strong> laborum veritatis
+                    illum assumenda vero velit atque possimus harum fugit mollitia fuga sunt. Nesciunt.
+                </p>
+            </div>
+            <div class="box-2">
+                <h1>yippee yayyyy</h1>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Delectus, quidem magnam inventore <strong>voluptas, doloribus tempore,</strong> laborum veritatis
@@ -34,19 +47,23 @@
             </p>
 
             <!-- Lists -->
-            <ul>
-                <li>List Item 1</li>
-                <li>List Item 2</li>
-                <li>List Item 3</li>
-                <li>List Item 4</li>
-            </ul>
-
-            <ol>
-                <li>List Item 1</li>
-                <li>List Item 2</li>
-                <li>List Item 3</li>
-                <li>List Item 4</li>
-            </ol>
+            <div class="categories">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                    <li><a href="#">Item 4</a></li>
+                </ul>
+                <hr>
+                <ol>
+                    <li>List Item 1</li>
+                    <li>List Item 2</li>
+                    <li>List Item 3</li>
+                    <li>List Item 4</li>
+                </ol>
+            </div>
+            
 
             <!-- Tables -->
             <table>
@@ -82,23 +99,23 @@
             <br>
 
             <!-- Forms -->
-            <form action="process.php" method="POST">
-                <div>
+            <form class="my-form" action="process.php" method="POST">
+                <div class="form-group">
                     <label>First Name</label>
                     <input type="text" name="firstName" placeholder="Enter first name">
                 </div>
                 <br>
-                <div>
+                <div class="form-group">
                     <label>Last Name</label>
                     <input type="text" name="lastName" placeholder="Enter last name">                
                 </div>
                 <br>
-                <div>
+                <div class="form-group">
                     <label>Email</label>
                     <input type="email" name="email" placeholder="Enter email">                
                 </div>
                 <br>
-                <div>
+                <div class="form-group">
                     <label>Message</label>
                     <textarea name="message"placeholder="Enter your message here"></textarea>                
                 </div>
@@ -122,11 +139,11 @@
                     <input type="date" name="birthday">               
                 </div>
                 <br>
-                <input type="submit" name="submit" value="submit">
+                <input class="button" type="submit" name="submit" value="Submit">
             </form>
             <br>
             <!-- Button -->
-            <button>Click me!</button>
+            <button class="button">Click me!</button>
             <br>
             <!-- Images -->
             <a href="images/normal_ball_python_-_generic.webp">
